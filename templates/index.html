@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Design Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GameDesign Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#process">Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#challenges">Challenges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#outcomes">Outcomes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-1 mb-4">Game Design Portfolio</h1>
+            <p class="lead mb-4">Crafting Immersive Gaming Experiences</p>
+            <a href="#overview" class="btn btn-outline-info btn-lg border-accent">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section id="overview" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Project Overview</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card case-study-card h-100">
+                        <img src="https://images.unsplash.com/photo-1631248927412-112dcb702309" class="card-img-top" alt="Game Design Sketch">
+                        <div class="card-body">
+                            <h3 class="card-title">Game Concept</h3>
+                            <p class="card-text">An innovative approach to combining strategy and action elements in a unique gaming experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card case-study-card h-100">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d" class="card-img-top" alt="UI Design">
+                        <div class="card-body">
+                            <h3 class="card-title">Interface Design</h3>
+                            <p class="card-text">Creating intuitive and engaging user interfaces that enhance player experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Process -->
+    <section id="process" class="process-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Design Process</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-lightbulb display-4 mb-3"></i>
+                            <h3>Conceptualization</h3>
+                            <p>Initial brainstorming and concept development phase.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-pencil-square display-4 mb-3"></i>
+                            <h3>Prototyping</h3>
+                            <p>Creating wireframes and interactive prototypes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-gear display-4 mb-3"></i>
+                            <h3>Implementation</h3>
+                            <p>Bringing designs to life through development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges and Solutions -->
+    <section id="challenges" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Challenges & Solutions</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>Technical Challenges</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-info me-2"></i>Performance optimization</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-info me-2"></i>Cross-platform compatibility</li>
+                                <li class="mb-3"><i class="bi bi-check-circle-fill text-info me-2"></i>Resource management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>Design Solutions</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-lightbulb-fill text-info me-2"></i>Implemented adaptive rendering</li>
+                                <li class="mb-3"><i class="bi bi-lightbulb-fill text-info me-2"></i>Responsive UI framework</li>
+                                <li class="mb-3"><i class="bi bi-lightbulb-fill text-info me-2"></i>Dynamic asset loading</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Outcomes -->
+    <section id="outcomes" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Final Outcomes</h2>
+            <div class="row g-4">
+                <div class="col-md-12 mb-4">
+                    <img src="https://images.unsplash.com/photo-1699040309386-11c615ed64d5" class="img-fluid gallery-img w-100" alt="Final Interface">
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>Key Achievements</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-trophy-fill text-info me-2"></i>90% User Satisfaction</li>
+                                <li class="mb-3"><i class="bi bi-trophy-fill text-info me-2"></i>Improved Performance</li>
+                                <li class="mb-3"><i class="bi bi-trophy-fill text-info me-2"></i>Award-winning Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>Impact</h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-graph-up text-info me-2"></i>Increased Player Retention</li>
+                                <li class="mb-3"><i class="bi bi-graph-up text-info me-2"></i>Higher Engagement Metrics</li>
+                                <li class="mb-3"><i class="bi bi-graph-up text-info me-2"></i>Positive Community Feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="d-flex justify-content-center gap-4">
+                        <a href="mailto:contact@example.com" class="text-decoration-none contact-item">
+                            <i class="bi bi-envelope-fill display-4"></i>
+                            <p>Email</p>
+                        </a>
+                        <a href="https://linkedin.com" class="text-decoration-none contact-item">
+                            <i class="bi bi-linkedin display-4"></i>
+                            <p>LinkedIn</p>
+                        </a>
+                        <a href="https://twitter.com" class="text-decoration-none contact-item">
+                            <i class="bi bi-twitter display-4"></i>
+                            <p>Twitter</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
