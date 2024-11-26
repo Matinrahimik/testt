@@ -35,7 +35,7 @@ html {
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(11, 11, 46, 0.8), rgba(11, 11, 46, 0.9)),
-                url('../images/hero-pattern.svg');
+                url('../../static/images/hero-pattern.svg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -94,7 +94,7 @@ html {
 
 /* Process section */
 .process-section {
-    background: url('../images/hero-pattern.svg');
+    background: url('../../static/images/hero-pattern.svg');
     background-size: cover;
     background-attachment: fixed;
     position: relative;
